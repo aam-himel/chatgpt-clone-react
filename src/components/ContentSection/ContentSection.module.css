@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(52,53,65,1);
+    width: 100%;
+    color: white;
+    height: 100vh;
+    overflow-y: auto;
+    padding: 1.5rem;
+}
+
+.btn__section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: .5rem;
+    border-radius: 12px;
+    background-color: rgba(32,33,35,1);
+}
+.btn__section span {
+    font-size: 14px;
+    font-weight: bold;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    padding: .5rem 1.5rem;
+    height: 100%;
+    background-color: rgba(64,65,79,1);
+}
+.btn:hover,.btndeactive:hover {
+    cursor: pointer;
+}
+.btndeactive {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    padding: .5rem 1.5rem;
+    height: 100%;
+}
+
+.title h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 1rem;
+    color: rgba(86,88,105,1);
+}
